@@ -1,0 +1,16 @@
+# Normalize all text files to LF
+* text=auto
+
+# Force specific Unity-related files to use LF
+*.asset text eol=lf
+*.unity text eol=lf
+*.meta text eol=lf
+
+# Ignore binary files
+*.png binary
+*.jpg binary
+*.exe binary
+*.dll binary
+
+# Prevent issues with temporary lock files
+Temp/
